@@ -15,9 +15,7 @@ contract StarNotary is ERC721Full {
     // Implement Task 1 Add a name and symbol properties
     // name: Is a short name to your token
     // symbol: Is a short string like 'USD' -> 'American Dollar'
-    constructor () public ERC721Full("Udacity Star Notary", "USNT")
-    {
-    }
+    constructor () public ERC721Full("BL Star Notary", "BLSNT") { }
 
     // mapping the Star with the Owner Address
     mapping(uint256 => Star) public tokenIdToStarInfo;
@@ -65,6 +63,7 @@ contract StarNotary is ERC721Full {
     // Implement Task 1 Exchange Stars function
     function exchangeStars(uint256 _tokenId1, uint256 _tokenId2) public {
         //1. Passing to star tokenId you will need to check if the owner of _tokenId1 or _tokenId2 is the sender
+        require(ownerOf(_tokenId1) == msg.sender || ownerOf(_tokenId2) == msg.sender,  "You need to own one of two tokens being exchanged");
 
         //2. You don't have to check for the price of the token (star)
         //3. Get the owner of the two tokens (ownerOf(_tokenId1), ownerOf(_tokenId1)
