@@ -1,4 +1,4 @@
-Rinkeby Token Address: bf6d6ca0b05a41b194e094613b85a40b
+Rinkeby Contract Hash (Token Address): 0x7CB6Ea6701897D2EC3eB84119A241d72dE5e8f1d
 ERC-721 Token Name: BL Star Notary
 ERC-721 Token Symbol: BLSNT
 Version of:
