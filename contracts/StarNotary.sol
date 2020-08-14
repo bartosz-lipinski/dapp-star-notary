@@ -35,7 +35,6 @@ contract StarNotary is ERC721Full {
         starsForSale[_tokenId] = _price;
     }
 
-
     // Function that allows you to convert an address into a payable address
     function _make_payable(address x) internal pure returns (address payable) {
         return address(uint160(x));
