@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/baalazamon/dapp-star-notary.git"
+    "url": "git+https://github.com/bartosz-lipinski/dapp-star-notary.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/baalazamon/dapp-star-notary/issues"
+    "url": "https://github.com/bartosz-lipinski/dapp-star-notary/issues"
   },
-  "homepage": "https://github.com/baalazamon/dapp-star-notary#readme",
+  "homepage": "https://github.com/bartosz-lipinski/dapp-star-notary#readme",
   "dependencies": {
     "openzeppelin-solidity": "^2.1.2",
     "solc": "^0.5.17",
